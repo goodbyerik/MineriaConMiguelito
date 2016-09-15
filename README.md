@@ -1,0 +1,2 @@
+# MineriaConMiguelito
+Codigo gitBAsh
