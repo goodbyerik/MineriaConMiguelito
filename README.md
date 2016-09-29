@@ -5,8 +5,8 @@ Codigo para buscar
 zcat loc-gowalla_totalCheckins.txt.gz
 zgrep -e '-[1-3]0T[0-9]\{2\}:[0-9]\{2\}:19' loc-gowalla_totalCheckins.txt.gz | wc -l
 
-#¿Cómo tratar un string?__
-Mediante CUT
+#¿Cómo tratar un string?
+Mediante CUT__
 1) Concaternar la funcion -> |
 2) Separarlo en campos
     El string [] lo divides en "n" campos
