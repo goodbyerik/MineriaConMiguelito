@@ -7,19 +7,19 @@ zgrep -e '-[1-3]0T[0-9]\{2\}:[0-9]\{2\}:19' loc-gowalla_totalCheckins.txt.gz | w
 
 #¿Cómo tratar un string?
 Mediante CUT <br />
-1) Concaternar la funcion -> |
-2) Separarlo en campos
-    El string [] lo divides en "n" campos
-    | cut -d$''
-3) Proyectar el campo deseado
-    Si es Primer campo, | cut -d$'' f1
-    Si es Primer y Quinto campo, | cut -d$'' f1,5
+1) Concaternar la funcion -> | <br />
+2) Separarlo en campos <br />
+    El string [] lo divides en "n" campos <br />
+    | cut -d$''<br />
+3) Proyectar el campo deseado<br />
+    Si es Primer campo, | cut -d$'' f1 <br />
+    Si es Primer y Quinto campo, | cut -d$'' f1,5 <br />
 
-Hay las siguientes funciones
-| cut -d$'' # --delimitador, lo que separará
--d$'\t' #el separador de campos (limitador) será el TAB (espaciado)
--d$'\r' #el separador de campos (limitador) será el ENTER
--d$'\n' #el separador de campos (limitador) será ¿¿¿???
+Hay las siguientes funciones<br />
+| cut -d$'' # --delimitador, lo que separará<br />
+-d$'\t' #el separador de campos (limitador) será el TAB (espaciado)<br />
+-d$'\r' #el separador de campos (limitador) será el ENTER<br />
+-d$'\n' #el separador de campos (limitador) será ¿¿¿???<br />
 
 #¿Cómo tratar un string?
 Mediante AWK
