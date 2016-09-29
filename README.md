@@ -13,8 +13,10 @@ Mediante CUT <br />
 <ul>El string [] lo divides en "n" campos </ul>
     | cut -d$''<br />
 3) Proyectar el campo deseado<br />
-    Si es Primer campo, | cut -d$'' f1 <br />
-    Si es Primer y Quinto campo, | cut -d$'' f1,5 <br />
+    Si es Primer campo, 
+    | cut -d$'' f1 <br />
+    Si es Primer y Quinto campo, 
+    | cut -d$'' f1,5 <br />
 </li>
 Hay las siguientes funciones<br />
 | cut -d$'' # --delimitador, lo que separará<br />
