@@ -11,10 +11,10 @@ Mediante CUT <br />
 1) Concaternar la funcion -> | <br />
 2) Separarlo en campos <br />
 <ul>El string [] lo divides en "n" campos </ul>
-    | cut -d$''<br />
+    | cut -d$''
 3) Proyectar el campo deseado<br />
     Si es Primer campo, 
-    | cut -d$'' f1 <br />
+    | cut -d$'' f1 
     Si es Primer y Quinto campo, 
     | cut -d$'' f1,5 <br />
 </li>
